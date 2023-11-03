@@ -1,0 +1,12 @@
+.gradle/
+build/
+target/
+.idea/*
+!.idea/codeStyles
+!.idea/inspectionProfiles
+*.iml
+.DS_Store
+*.received.*
+
+# IntelliJ sometimes generates an out/ directory
+out/
