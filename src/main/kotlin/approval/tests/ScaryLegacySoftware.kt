@@ -9,7 +9,7 @@ class ScaryLegacySoftware {
 
     fun rollTheDice(value: Int): ScaryLegacyClass {
         return when (value) {
-            0 -> ScaryLegacyClass(unknownValue = mapOf("1" to "one"))
+            0 -> ScaryLegacyClass(unknownValue = mapOf("1" to "one1"))
             1 -> ScaryLegacyClass(unknownValue = mapOf("1" to "one"))
             2 -> ScaryLegacyClass(unknownValue = mapOf("2" to "two"))
             3 -> ScaryLegacyClass(unknownValue = mapOf("3" to "three"))

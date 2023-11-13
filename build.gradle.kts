@@ -18,7 +18,7 @@ repositories {
 dependencies {
     testImplementation("com.approvaltests:approvaltests:19.0.0")
     testImplementation("org.junit.jupiter:junit-jupiter-params:5.10.0")
-
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.15.3")
 
     // Use the Kotlin JUnit 5 integration.
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
